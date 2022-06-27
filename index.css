@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1090px;
+}
+body {
+    max-height: 1100px;
+    max-width: 1090px;
+    border: 5px solid black;
+}
+
+/*!HORIZONTAL*/
+
+.horizontal {
+    position: relative;
+    top: 50px;
+    background-color: rgb(4, 77, 203);
+    width: 100%;
+    height: 150px;
+    max-width: 1090px;
+
+}
+
+.horizontal h2 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    font-size: 3em;
+}
+
+.horizontal h1 .apellido {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-size: 1.5em;
+}
+
+.horizontal .dwfs {
+    color: white;
+    position: absolute;
+    left: 50.3%;
+    top: 75%;
+    font-size: 18px;
+}
+
+
+.container-objetivos {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    /* padding-top: 100px; */
+    
+    bottom: 140px;
+    
+}
+.container-objetivos .objetivos {
+    font-size: 2em;
+    color: rgb(20, 20, 183 );
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    position: relative;
+    left: 80px;
+}
+.container-objetivos h1 {
+
+     margin: 70px auto;
+}
+
+.container-objetivos li {
+    width: 80%;
+    
+}
+
+
+
+
+
+
+/*!VERTICAL*/
+
+.vertical {
+    position: relative;
+    bottom: 190px;
+    left: 0.8%;
+    background-color: rgb(0, 61, 166);
+    width: 300px;
+    height: 1024px;
+    max-height: 1200px;
+    /* margin-left: 40px; */
+    /* border: 1px solid aqua; */
+
+}
+
+.logo {
+    position: relative;
+    top: 8%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    height: 13%;
+    border-radius: 70%;
+    width: 50%;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.container-vertical {
+    margin-top: 50%;
+    padding: 15px ;
+
+}
+
+.container-vertical h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    position: absolute;
+    left: 99px;
+    bottom: 570px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.container-vertical p {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 440px;
+    padding: 30px ;
+}
+
+
+.container-icons {
+    display: block;
+    position: relative;
+    bottom: 370px;
+    margin-left: 10px;
+}
+.display-5 .estilos {
+    position: absolute;
+    width: 500px;
+    bottom: 240px;
+    margin-left: 25px;
+    color: white;
+
+}
+
+.display-5 .numerotelefono {
+    font-size: 16px;
+    position: absolute;
+    bottom: 235px;
+    left: 85px;
+    color: white;
+}
+
+.display-5 .message {
+    position: absolute;
+    bottom: 160px;
+    color: white;
+    margin-left: 27px;
+    
+}
+
+.display-5 .email {
+    position: absolute;
+    bottom: 160px;
+    left: 50px;
+    color: white;
+    margin-left: 27px;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;  
+}
+
+.fbook-logo {
+    position: absolute;
+    bottom: 85px;
+    left: 26px;
+    color: white
+}
+
+.facebook-ruta{
+    position: absolute;
+    bottom: 80px;
+    left: 77px;
+    color: white;
+    font-size: 16px;
+}
+
+.logo-lkdn {
+    position: absolute;
+    bottom: 10px;
+    left: 29px;
+    color: white;
+
+}
+
+.p-linkedin {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 75px;
+    font-size: 16px;
+}
+
+.github-logo {
+    position: absolute;
+    top: 20px;
+    left: 27px;
+    color: white;
+}
+
+.text-github {
+    color: white;
+    position: absolute;
+    top: 30px;
+    font-size: 16px;
+    left:74px;
+}
+
+.container-main {
+    /* border: 1px solid black; */
+    width: 50%;
+    position: relative;
+    bottom: 880px;
+    left:33%;
+    height: 400px;
+}
+
+.container-main .main-info ul {
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 60px;
+    left: 90px;
+    width: 90%;
+    
+}
+
+
+.habilidades {
+    color: rgb(18, 18, 200);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 70px;
+    text-decoration:underline;
+    left: 90px;
+
+}
+
+
+.main-info {
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
+    /* height: 690px;
+    width: 600px; */
+}
+
+.main-info p{
+    margin-left: 20px;
+    /* border: 1px solid black; */
+
+}
+
+
+.logo-language {
+    position: absolute;
+    left: 27%;
+    
+}
+
+
+.container-main {
+    /* border: 1px solid black; */
+}
+.container-main .idiomas {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+ 
+}
+
+.container-main .text-idioma {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: rgb(20, 20, 183);
+    margin-left: 10px;
+    position: relative;
+    bottom: 40px;
+}
+
+.container-main .idiomas .ingles-basico {
+    font-family: 'Poppins', sans-serif;
+   position: relative;
+   bottom: 40px;
+   
+}
+
+.container-main .educacion {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px;
+    position: relative;
+    bottom: 180px;
+    left: 90px;
+}
+
+.container-main .text-educacion {
+    font-size: 25px;
+    color: rgb(20, 20, 183 );
+    
+    text-decoration: underline;
+}
+
+.logo-education {
+    position: absolute;
+    left: -14px;
+    top: 40px;
+    
+}
+
+
+
