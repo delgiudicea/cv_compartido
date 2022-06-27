@@ -316,7 +316,7 @@ body {
 .container-main .text-educacion {
     font-size: 25px;
     color: rgb(20, 20, 183 );
-    
+    margin-left: 3.5px;
     text-decoration: underline;
 }
 
