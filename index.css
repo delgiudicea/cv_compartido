@@ -150,7 +150,7 @@ body {
     position: absolute;
     width: 500px;
     bottom: 240px;
-    margin-left: 25px;
+    margin-left: 28px;
     color: white;
 
 }
@@ -231,7 +231,7 @@ body {
     /* border: 1px solid black; */
     width: 50%;
     position: relative;
-    bottom: 950px;
+    bottom: 1000px;
     left:33%;
     height: 400px;
 }
